@@ -1,6 +1,7 @@
 import express from "express"
 import mongoose from "mongoose"
 import routes from "./routes"
+import cors from "cors"
 
 const app = express()
 mongoose.connect(
@@ -12,6 +13,7 @@ mongoose.connect(
 )
 
 app.use(express.json())
+app.use(cors())
 app.use(routes)
 
 app.listen(5050)

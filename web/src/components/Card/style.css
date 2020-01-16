@@ -1,0 +1,48 @@
+.card {
+    background: #fff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.card header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card header img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info {
+    margin-left: 10px;
+}
+
+.card .user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.card .user-info span {
+    font-size: 13px;
+    margin-top: 2px;
+    color: #999;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.card a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+}
